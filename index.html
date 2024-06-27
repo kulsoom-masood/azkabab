@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azkabab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Azkabab</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order Online</a></li>
+                <li><a href="#dineout">Dine Out</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Azkabab</h2>
+        <p>Delicious food, delivered to your door.</p>
+        <img src="home.avif" alt="Delicious Food">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Azkabab is dedicated to serving the best food with the freshest ingredients.</p>
+        <img src="about.avif" alt="About Us">
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>
+                <img src="kabab.jpg" alt="Kabab Platter">
+                <h3>Kabab Platter</h3>
+                <p>Succulent kababs served with rice and salad.</p>
+            </li>
+            <li>
+                <img src="chicken.jpg" alt="Grilled Chicken">
+                <h3>Grilled Chicken</h3>
+                <p>Juicy grilled chicken with a smoky flavor.</p>
+            </li>
+            <li>
+                <img src="vegetarian.jpeg" alt="Vegetarian Delight">
+                <h3>Vegetarian Delight</h3>
+                <p>A mix of fresh vegetables and grains.</p>
+            </li>
+            <li>
+                <img src="desserts.jpeg" alt="Desserts">
+                <h3>Desserts</h3>
+                <p>Sweet treats to end your meal.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="order">
+        <h2>Order Online</h2>
+        <form id="orderForm">
+            <label for="orderName">Name:</label>
+            <input type="text" id="orderName" name="orderName">
+            <label for="orderEmail">Email:</label>
+            <input type="email" id="orderEmail" name="orderEmail">
+            <label for="orderItems">Order Items:</label>
+            <textarea id="orderItems" name="orderItems"></textarea>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <section id="dineout">
+        <h2>Dine Out</h2>
+        <p>Visit us for an amazing dining experience.</p>
+        <p>Address: 123 Food Street, Foodville</p>
+        <p>Opening Hours: 10:00 AM - 10:00 PM</p>
+        <img src="dineout.png" alt="Dine Out">
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <label for="feedbackName">Name:</label>
+            <input type="text" id="feedbackName" name="feedbackName">
+            <label for="feedbackEmail">Email:</label>
+            <input type="email" id="feedbackEmail" name="feedbackEmail">
+            <label for="feedbackMessage">Feedback:</label>
+            <textarea id="feedbackMessage" name="feedbackMessage"></textarea>
+            <button type="submit">Send Feedback</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="contactName">Name:</label>
+            <input type="text" id="contactName" name="contactName">
+            <label for="contactEmail">Email:</label>
+            <input type="email" id="contactEmail" name="contactEmail">
+            <label for="contactMessage">Message:</label>
+            <textarea id="contactMessage" name="contactMessage"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Azkabab. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
